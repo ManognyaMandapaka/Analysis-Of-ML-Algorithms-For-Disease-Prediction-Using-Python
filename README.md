@@ -1,1 +1,47 @@
-This documentation outlines a comprehensive analysis of machine learning algorithms for disease prediction, employing a dataset rich in disease-symptom information. The algorithms assessed include Naïve Bayes, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Tree, and Random Forest. Implementation was carried out in Python, utilizing Jupyter Notebook and libraries such as scikit-learn, NumPy, and Pandas. Performance evaluation metrics, including accuracy, precision, recall, and F-score, were employed to gauge algorithm effectiveness. Remarkably, the Naïve Bayes algorithm emerged as the frontrunner, achieving an outstanding accuracy rate of 87.12%. This documentation concludes that Naïve Bayes exhibits promising potential for disease prediction based on the dataset, suggesting avenues for further exploration and refinement in the realm of early disease detection and diagnosis.
+# Disease Prediction Using Machine Learning
+
+This project applies supervised machine learning algorithms to predict diseases based on symptoms. The goal is to assist early diagnosis by training models on symptom-based features to accurately classify diseases.
+
+## Project Overview
+
+Using a dataset composed of patient symptoms and corresponding diagnoses, multiple machine learning classifiers were evaluated to identify the most effective model for predicting disease. The models were trained and evaluated using performance metrics such as accuracy, precision, recall, and F1-score.
+
+## Dataset
+
+- **Features**: Binary or categorical symptom indicators
+- **Target**: Disease category (multi-class)
+- **Size**: Not specified (assumed from public healthcare sources)
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- scikit-learn, NumPy, pandas
+- matplotlib / seaborn (for visualizations)
+
+## Key Features
+
+- Cleaned and preprocessed a symptom-disease dataset
+- Built and compared five classification models
+- Evaluated models using standard metrics
+- Visualized accuracy across classifiers for better interpretability
+
+## 📊 Model Performance
+
+| Classifier                      | Accuracy (%) |
+|--------------------------------|--------------|
+| Naïve Bayes (GNB)              | **87.13** ✅ |
+| Random Forest                  | **87.13** ✅ |
+| Support Vector Machine (SVM)   | **87.13** ✅ |
+| K-Nearest Neighbors (KNN)      | 74.26        |
+| Decision Tree                  | 73.27        |
+
+**Conclusion**: Naïve Bayes, SVM, and Random Forest classifiers performed equally well, each achieving an accuracy of approximately 87.13%. Naïve Bayes is particularly promising due to its simplicity and speed on this dataset.
+
+## How to Run
+
+1. Clone the repository and open the notebook file.
+2. Install required packages:
+   ```bash
+   pip install numpy pandas scikit-learn matplotlib
+Run the notebook cells in order to train models and view results.
