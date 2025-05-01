@@ -10,7 +10,8 @@ Using a dataset composed of patient symptoms and corresponding diagnoses, multip
 
 - **Features**: Binary or categorical symptom indicators
 - **Target**: Disease category (multi-class)
-- **Size**: Not specified (assumed from public healthcare sources)
+- **Size**: The dataset originally contains 4988 rows and 133 columns but for more accurate results, duplicate rows have been 
+  removed which reduces the size of the dataset to around 305 rows and 133 columns.
 
 ## Technologies Used
 
